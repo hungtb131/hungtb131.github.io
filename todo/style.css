@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    width: 80%;
+    align-items: center;
+    background-color: bisque;
+}
+.tittle{
+    text-align: center;
+    margin-top: 25px;
+}
+.form{
+    margin:auto;
+    max-width: 80%;
+    text-align: center;    
+}
+input[type="submit"], button, [aria-label]{
+    cursor: pointer;
+}
+#edit-box{
+    display: none;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+td{
+    background-color: bisque;
+    padding-right: 10px;
+    text-align: left;
+}
+
+.to-do{
+    background: transparent !important;
+}

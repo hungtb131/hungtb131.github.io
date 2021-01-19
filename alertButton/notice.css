@@ -1,0 +1,29 @@
+body{
+  background-image: url('https://static2.lolwallpapers.net/2017/08/59876c26df82d.png');
+}
+.btn{
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+}
+.ul-notice{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.ul-notice li{
+  background-color: rgb(253, 225, 171);
+  margin: 30px;
+  padding: 20px 40px;
+  border-radius: 25px;
+  transition: 0.4s;
+}
