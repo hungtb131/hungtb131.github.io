@@ -1,0 +1,443 @@
+/* Globall css */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family: SF Pro Display;
+}
+ul,
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    height: auto;
+    object-fit: cover;
+}
+
+.container {
+  max-width: 980px;
+}
+.welcom .heading span {
+  font-weight: 200;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+}
+.nav-link {
+  white-space: 30px;
+}
+.arrow {
+  padding: 10px 15px;
+  background: white;
+  display: block;
+}
+.arrow:focus {
+  outline: none;
+}
+
+.welcome > img {
+  position: relative;
+  z-index: -1;
+}
+.fact-list {
+  width: 314px;
+  height: 364px;
+  left: 69px;
+  top: 743px;
+}
+.welcome {
+  margin-bottom: 20px;
+}
+/* banner */
+.banner-text {
+  width: 460px;
+  height: 200px;
+  background: #ffffff;
+}
+.banner-container .img img {
+  position: relative;
+  z-index: -1;
+}
+.actions {
+  margin-top: -150px;
+  margin-left: 100px;
+}
+.banner-text p {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 43px;
+  color: #333333;
+  padding: 25px 35px 45px 35px;
+}
+.banner-text span {
+  font-weight: 500;
+}
+.banner-action {
+  width: 130px;
+  height: 45px;
+  background-color: #ffffff;
+}
+.banner-action button {
+  border: 0;
+  background-color: #ffffff;
+}
+/* fact-list */
+
+.facts {
+  margin-bottom: 50px;
+}
+.fact {
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+
+}
+.title {
+  margin-bottom: 50px;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 57px;
+
+  color: #333333;
+}
+.facts-content {
+  padding: 35px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: block;
+  margin-top: auto;
+}
+.fact-number {
+  margin-top: 30px;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 86px;
+  /* identical to box height */
+
+  color: #ef5d64;
+}
+.fact-title {
+  margin-bottom: 20px;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #333333;
+}
+.fact-desc {
+  margin-bottom: 70px;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #333333;
+}
+.fact-seemore {
+  display: block;
+  margin-top: auto;
+  text-align: right;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  cursor: pointer;
+  color: #333333;
+}
+
+/* news blog css*/
+.news-blog-heading {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 57px;
+  color: #333333;
+}
+.new-blog-item {
+  padding-bottom: 27px;
+  padding-top: 27px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-left: 20px;
+}
+.blog-tittle {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #333333;
+}
+.blog-more button{
+  border: 1px solid black;
+    display: inline-block;
+    padding: 20px 0;
+    width: 150px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #333333;
+    transition: 0.4s;
+    cursor: pointer;
+    background: #ffffff;
+    margin-top: 68px;
+    margin-bottom: 146px;
+}
+.blog-more button:hover{
+  background: black;
+  color: white;
+}
+/* COMMENT CSS */
+.comment{
+  margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 150px;
+    
+}
+.comment-text{
+  margin-bottom: 80px;
+    font-family: SF Pro Display;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 54px;
+    text-transform: initial;
+    /* or 180% */
+
+    letter-spacing: 0.833333px;
+
+    color: #333333;
+}
+.comment-avatar{
+  display: flex;
+}
+.comment-avatar img{
+  margin-right: 40px;
+}
+.avatar-name p{
+  font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+
+    letter-spacing: 2.5px;
+    margin-bottom: 0;
+    color: #333333;
+
+}
+.avatar-name small{
+  font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+    letter-spacing: 2.5px;
+
+    color: #333333;
+}
+/* email css */
+.email {
+  margin-bottom: 130px;
+}
+.email-text {
+  margin-bottom: 60px;
+}
+.email-input {
+  position: relative;
+}
+.email-input input {
+  width: 100%;
+  padding: 15px 90px;
+}
+.email-input .fa-envelope {
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  transform: translateY(-50%);
+  font-size: 25px;
+}
+.email-input .fa-chevron-right {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  font-size: 25px;
+  cursor: pointer;
+}
+.email .dash {
+  border-right: 1px solid black;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 70px;
+}
+/* footer */
+.footer{
+  max-width: 980px;
+  text-align: center;
+}
+.footer-content {
+  height: 160px;
+  border-top: 1px solid black;
+}
+.footer-design {
+  margin-top: 20px;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3.21429px;
+
+  color: #333333;
+}
+.footer-nav {
+  margin-top: 20px;
+}
+.footer-nav li {
+  margin-left: 30px;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3.21429px;
+
+  color: #333333;
+  cursor: pointer;
+  list-style: none;
+}
+/* responsive */
+@media (min-width: 1080px) {
+  .container {
+      max-width: 980px !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+  }
+  .container-fluid {
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+  }
+}
+@media (max-width: 768px) {
+  .footer-nav li,
+  .footer-design {
+      font-size: 12px;
+  }
+  .banner-slide {
+      margin-left: 0;
+      position: relative;
+      top: -50px;
+  }
+  .slide-text {
+      font-size: 20px;
+      width: 100%;
+      padding-top: 0;
+      padding-bottom: 0;
+  }
+  .slide-arrow {
+      margin: auto;
+  }
+  .banner {
+      margin-bottom: 80px;
+  }
+  .email-input input {
+      width: 100%;
+      padding-left: 10px;
+  }
+  .title {
+      font-size: 30px;
+  }
+  .fact-number {
+      font-size: 50px;
+  }
+  .fact-title,
+  .fact-desc,
+  .fact-seeMore,
+  .new-title,
+  .new-desc {
+      font-size: 18px;
+  }
+  .facts-content{
+      padding-left: 0;
+      padding-right: 0;
+  }
+  .user {
+      margin-right: 0;
+      margin-left: 0;
+  }
+  .user-comment {
+      font-size: 20px;
+      margin-bottom: 50px;
+  }
+  .user-avatar img {
+      width: 60px;
+  }
+  .user-name p {
+      font-size: 15px;
+  }
+  .user-name small {
+      font-size: 12px;
+  }
+}
+@media (max-width: 991px) {
+  .slide-text {
+      font-size: 20px;
+  }
+  .navbar {
+      position: relative;
+  }
+  .navbar-nav {
+      text-align: right;
+      position: absolute;
+      z-index: 10000;
+      top: 45px;
+      right: 0;
+      background-color: #fff;
+      width: 100%;
+  }
+  .nav-item {
+      padding: 5px 0;
+  }
+  .nav-link{
+      font-size: 15px !important;
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      margin-right: 10px !important;
+  }
+}
