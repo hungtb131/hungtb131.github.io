@@ -355,6 +355,9 @@ img {
   }
 }
 @media (max-width: 768px) {
+  .container{
+    width: 100%;
+  }
   .footer-nav li,
   .footer-design {
       font-size: 12px;
