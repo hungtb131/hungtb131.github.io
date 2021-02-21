@@ -7,7 +7,7 @@
 	--star-gold-color: #ffce3e;
 	--header-height: 120px;
 	--navbar-height: 34px;
-	--header-with-search-height: calc(var(--header-height) - var(--navbar-height));
+	--header-with-search-height: calc(var(--header-height)-var(--navbar-height));
 	--header-sort-bar-height: 46px;
 }
 
@@ -30,14 +30,14 @@ html{
 
 /*reponsive*/
 .grid {
-    width: 100%;
-    display: block;
-    padding: 0;
+	width: 100%;
+	display: block;
+	padding: 0;
 }
 
 .grid.wide {
-    max-width: 1200px;
-    margin: 0 auto;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 .grid__row{
 	display: flex;
@@ -74,7 +74,7 @@ html{
 
 @keyframes growth{
 	from{
-		transform: scale( var( --grow-from ));
+		transform: scale(var(--grow-from));
 	}
 	to{
 		transform: scale(var(--grow-to));
@@ -192,7 +192,7 @@ html{
 	width: 200px;
 	height: 10px;
 	top: -5px;
-    left: 0;
+	left: 0;
 	position: absolute;
 }
 .select-input__link{
@@ -238,9 +238,5 @@ html{
 	line-height: 30px;
 	font-size: 1.8rem;
 	border-radius: 2px;
-	
-}
-
-.pagination-item__icon{
 
 }
