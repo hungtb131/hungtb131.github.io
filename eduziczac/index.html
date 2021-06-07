@@ -4,531 +4,685 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Favicon CSS links -->
-  <link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon">
-  <!-- Box icons CSS links -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
-  <!-- Custom StyleSheet -->
-  <link rel="stylesheet" href="./css/styles.css" />
-  <title>EduZiczac - Online Course Website</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+  <!-- Glidejs StyleSheet -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css" />
+
+  <!-- Animate CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+  <!-- StyleSheet -->
+  <link rel="stylesheet" href="./style.css" />
+  <title>Eduziczac || ZiczacMedia's Education Website</title>
 </head>
 
 <body>
-  <!-- Header Section -->
-  <header id="home" class="header">
-    <!-- Navigation Section -->
-    <nav class="nav">
-      <div class="navigation container">
-        <div class="logo">
-          <h1><a href="index.html">EDUZICZAC</a></h1>
-        </div>
+  <div id="pre-loader">
+    <div class="loader"></div>
+  </div>
 
-        <div class="menu">
-          <div class="top-nav">
+  <div class="adverts">
+    <span>30% off sale cho người học theo nhóm</span>
+  </div>
+
+  <!-- Header -->
+  <header id="home" class="header">
+    <nav class="navigation">
+      <div class="nav-center container">
+        <a href="#home" class="logo">
+          <h1><span>E</span>DUZICZAC</h1>
+        </a>
+
+        <div class="nav-menu">
+          <div class="nav-top">
             <div class="logo">
-              <h1>EDUZICZAC</h1>
+              <h1><span>E</span>DUZICZAC</h1>
             </div>
             <div class="close">
-              <i class="bx bx-x"></i>
+              <i class="fas fa-times"></i>
             </div>
           </div>
 
           <ul class="nav-list">
             <li class="nav-item">
-              <a href="index.html" class="nav-link scroll-link">Trang chủ</a>
+              <a href="#home" class="nav-link scroll-link">Trang chủ</a>
             </li>
+
             <li class="nav-item">
-              <a href="product.html" class="nav-link">Khóa học</a>
+              <a href="#shop" class="nav-link scroll-link">Khóa học</a>
             </li>
+
             <li class="nav-item">
-              <a href="abouts.html" class="nav-link scroll-link">Thông tin</a>
+              <a href="#new" class="nav-link scroll-link">Khóa học mới</a>
             </li>
+
             <li class="nav-item">
-              <a href="contact.html" class="nav-link scroll-link">Liên hệ</a>
+              <a href="#recent" class="nav-link scroll-link">Khóa học phổ biến</a>
             </li>
+
             <li class="nav-item">
-              <a href="news.html" class="nav-link scroll-link">Tin tức/Blogs</a>
-            </li>
-            <li class="nav-item">
-              <a href="cart.html" class="nav-link icon"><i class="bx bx-shopping-bag"></i></a>
+              <a href="#blog" class="nav-link scroll-link">Blog/tin tức</a>
             </li>
           </ul>
         </div>
 
-        <a href="cart.html" class="cart-icon">
-          <i class="bx bx-shopping-bag"></i>
-        </a>
+        <div class="nav-icons">
+          <span><i class="fas fa-user"></i></span>
+          <span><i class="fas fa-search"></i></span>
+          <span><i class="fas fa-shopping-cart"></i></span>
+        </div>
 
         <div class="hamburger">
-          <i class="bx bx-menu"></i>
+          <i class="fas fa-bars"></i>
         </div>
       </div>
     </nav>
-
-    <!-- Hero Section -->
-    <img src="./images/banner.png" alt="" class="hero-img" />
-
-    <div class="hero-content">
-      <h2><span class="hero-content-tittle">Tri thức  </span> là nguồn sức mạnh vô tận</h2>
-      <h1>
-        <span>EduZiczac</span>
-        <span>Học để làm việc</span>
-      </h1>
-      <a class="btn" href="product.html">xem ngay</a>
-    </div>
   </header>
 
-  <!-- Main Section -->
-  <main>    
+  <!-- Main -->
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="glide glide1" id="glide1">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides glide__hero">
 
-    <!-- Lastest Course Section -->
-    <section class="section featured">
-      <div class="title">
-        <h1>Khóa học mới nhất</h1>
-      </div>
+            <li class="glide__slide">
+              <div class="banner">
+                <div class="banner-content">
+                  <span>Tri thức là sức mạnh!</span>
+                  <h1>DARE TO WIN</h1>
+                  <h3>Đánh thức con sư tử trong bạn đi nào</h3>
+                  <div class="buttons-group">
+                    <button>Đăng ký ngay</button>
+                    <button>Tìm hiểu thêm</button>
+                  </div>
+                </div>
+                <img src="./images/banner_1.png" class="special_01" alt="">
+            </li>
+            <li class="glide__slide">
+              <div class="banner">
+                <div class="banner-content">
+                  <span>Tri thức là sức mạnh!</span>
+                  <h1>DARE TO WIN</h1>
+                  <h3>Đánh thức con sư tử trong bạn đi nào</h3>
+                  <div class="buttons-group">
+                    <button>Đăng ký ngay</button>
+                    <button>Tìm hiểu thêm</button>
+                  </div>
+                </div>
+                <img src="./images/banner_2.png" class="special_02" alt="">
+            </li>
+            <li class="glide__slide">
+              <div class="banner">
+                <div class="banner-content">
+                  <span>Tri thức là sức mạnh!</span>
+                  <h1>DARE TO WIN</h1>
+                  <h3>Đánh thức con sư tử trong bạn đi nào</h3>
+                  <div class="buttons-group">
+                    <button>Đăng ký ngay</button>
+                    <button>Tìm hiểu thêm</button>
+                  </div>
+                </div>
+                <img src="./images/banner_3.png" class="special_03" alt="">
+            </li>
 
-      <div class="product-center container">
-        <div class="product">
-          <div class="product-header">
-            <img src="./images/pic16.png" alt="">
-            <ul class="icons">
-              <span><i class="bx bx-heart"></i></span>
-              <span><i class="bx bx-shopping-bag"></i></span>
-              <span><i class="bx bx-search"></i></span>
-            </ul>
-          </div>
-          <div class="product-footer">
-            <a href="product-details.html">
-              <h3>Chỉnh sửa,biên tập ảnh với photoshop</h3>
-            </a>
-            <div class="rating">
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bx-star"></i>
-            </div>
-            <h4 class="price">$150</h4>
-          </div>
-        </div>
-        <div class="product">
-          <div class="product-header">
-            <img src="./images/pic15.jpg" alt="">
-            <ul class="icons">
-              <span><i class="bx bx-heart"></i></span>
-              <span><i class="bx bx-shopping-bag"></i></span>
-              <span><i class="bx bx-search"></i></span>
-            </ul>
-          </div>
-          <div class="product-footer">
-            <a href="product-details.html"><h3>Lập trình ứng dụng mobile với Flutter</h3></a>
-            <div class="rating">
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bx-star"></i>
-            </div>
-            <h4 class="price">$50</h4>
-          </div>
-        </div>
-        <div class="product">
-          <div class="product-header">
-            <img src="./images/pic14.jpg" alt="">
-            <ul class="icons">
-              <span><i class="bx bx-heart"></i></span>
-              <span><i class="bx bx-shopping-bag"></i></span>
-              <span><i class="bx bx-search"></i></span>
-            </ul>
-          </div>
-          <div class="product-footer">
-            <a href="product-details.html"><h3>Swift - lập trình ứng dụng di động cho IOS </h3></a>
-            <div class="rating">
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bx-star"></i>
-            </div>
-            <h4 class="price">$50</h4>
-          </div>
-        </div>
-        <div class="product">
-          <div class="product-header">
-            <img src="./images/pic13.jpg" alt="">
+            
 
-            <ul class="icons">
-              <span><i class="bx bx-heart"></i></span>
-              <span><i class="bx bx-shopping-bag"></i></span>
-              <span><i class="bx bx-search"></i></span>
-            </ul>
-          </div>
-          <div class="product-footer">
-            <a href="product-details.html"><h3>Lập trình ứng dụng di động Android</h3></a>
-            <div class="rating">
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bx-star"></i>
-            </div>
-            <h4 class="price">$50</h4>
-          </div>
+          </ul>
+        </div>
+
+        <!-- Arrows -->
+        <div class="glide__arrows" data-glide-el="controls">
+          <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fas fa-arrow-left"></i></button>
+          <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i
+              class="fas fa-arrow-right"></i></button>
         </div>
       </div>
     </section>
 
-    <!--Other Course Section -->
-    <section class="section featured">
-      <div class="title">
-        <h1>Một số khóa học trên Eduziczac</h1>
-      </div>
+    <!-- Category -->
+    <section class="section category">
+      <h2 class="title">Bạn muốn học gì?</h2>
+      <div class="category-center container">
 
-      <div class="product-center container">
-        <div class="product">
-          <div class="product-header">
-            <img src="./images/pic5.jpg" alt="">
-
-            <ul class="icons">
-              <span><i class="bx bx-heart"></i></span>
-              <span><i class="bx bx-shopping-bag"></i></span>
-              <span><i class="bx bx-search"></i></span>
-            </ul>
-          </div>
-          <div class="product-footer">
-            <a href="product-details.html"><h3>Chỉnh sửa,biên tập Video với AECC và Premiere</h3></a>
-            <div class="rating">
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bx-star"></i>
-            </div>
-            <h4 class="price">$50</h4>
-          </div>
-        </div>
-        <div class="product">
-          <div class="product-header">
-            <img src="./images/pic6.png" alt="">
-
-            <ul class="icons">
-              <span><i class="bx bx-heart"></i></span>
-              <span><i class="bx bx-shopping-bag"></i></span>
-              <span><i class="bx bx-search"></i></span>
-            </ul>
-          </div>
-          <div class="product-footer">
-            <a href="product-details.html"><h3>GreenSock Property Manipulator - Animation với GSAP</h3></a>
-            <div class="rating">
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bx-star"></i>
-            </div>
-            <h4 class="price">$50</h4>
-          </div>
-        </div>
-        <div class="product">
-          <div class="product-header">
-            <img src="./images/pic7.jpg" alt="">
-
-            <ul class="icons">
-              <span><i class="bx bx-heart"></i></span>
-              <span><i class="bx bx-shopping-bag"></i></span>
-              <span><i class="bx bx-search"></i></span>
-            </ul>
-          </div>
-          <div class="product-footer">
-            <a href="product-details.html"><h3>Trở thành lập trình viên Front-End với ReactJS</h3></a>
-            <div class="rating">
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bx-star"></i>
-            </div>
-            <h4 class="price">$50</h4>
-          </div>
-        </div>
-        <div class="product">
-          <div class="product-header">
-            <img src="./images/pic8.jpg" alt="">
-
-            <ul class="icons">
-              <span><i class="bx bx-heart"></i></span>
-              <span><i class="bx bx-shopping-bag"></i></span>
-              <span><i class="bx bx-search"></i></span>
-            </ul>
-          </div>
-          <div class="product-footer">
-            <a href="product-details.html"><h3>Lập trình ứng dụng đa nền tảng React-Native</h3></a>
-            <div class="rating">
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bx-star"></i>
-            </div>
-            <h4 class="price">$50</h4>
-          </div>
-        </div>
-        <div class="product">
-          <div class="product-header">
-            <img src="./images/pic9.png" alt="">
-
-            <ul class="icons">
-              <span><i class="bx bx-heart"></i></span>
-              <span><i class="bx bx-shopping-bag"></i></span>
-              <span><i class="bx bx-search"></i></span>
-            </ul>
-          </div>
-          <div class="product-footer">
-            <a href="product-details.html"><h3>Đóng gói và vận hành ứng dụng với Docker</h3></a>
-            <div class="rating">
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bx-star"></i>
-            </div>
-            <h4 class="price">$50</h4>
-          </div>
-        </div>
-        <div class="product">
-          <div class="product-header">
-            <img src="./images/pic10.png" alt="">
-
-            <ul class="icons">
-              <span><i class="bx bx-heart"></i></span>
-              <span><i class="bx bx-shopping-bag"></i></span>
-              <span><i class="bx bx-search"></i></span>
-            </ul>
-          </div>
-          <div class="product-footer">
-            <a href="product-details.html"><h3>Thiết kế Website,ứng dụng di động với Figma</h3></a>
-            <div class="rating">
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bx-star"></i>
-            </div>
-            <h4 class="price">$50</h4>
-          </div>
-        </div>
-        <div class="product">
-          <div class="product-header">
-            <img src="./images/pic11.jpg" alt="">
-
-            <ul class="icons">
-              <span><i class="bx bx-heart"></i></span>
-              <span><i class="bx bx-shopping-bag"></i></span>
-              <span><i class="bx bx-search"></i></span>
-            </ul>
-          </div>
-          <div class="product-footer">
-            <a href="product-details.html"><h3>Quản lý mã nguồn,team-work với Git</h3></a>
-            <div class="rating">
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bx-star"></i>
-            </div>
-            <h4 class="price">Free</h4>
-          </div>
-        </div>
-        <div class="product">
-          <div class="product-header">
-            <img src="./images/pic12.png" alt="">
-
-            <ul class="icons">
-              <span><i class="bx bx-heart"></i></span>
-              <span><i class="bx bx-shopping-bag"></i></span>
-              <span><i class="bx bx-search"></i></span>
-            </ul>
-          </div>
-          <div class="product-footer">
-            <a href="product-details.html"><h3>Lập trình JAVA spring-boot</h3></a>
-            <div class="rating">
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bx-star"></i>
-            </div>
-            <h4 class="price">$50</h4>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Product Banner Section -->
-    <section class="section">
-      <div class="product-banner">
-        <div class="left">
-          <img src="./images/banner.png" alt="" />
-        </div>
-        <div class="right">
+        <div class="category-box">
+          <img src="./images/cat1.jpg" alt="">
           <div class="content">
-            <h2>Bạn muốn học gì?</h2>
-            <h1>
-              <span>Design?</span>
-              <span>Code?</span>
-            </h1>
-            <a class="btn" href="product.html">xem ngay</a>
+            <h2>Design</h2>
+            <span>10+ khóa học từ cơ bản đến nâng cao</span>
+            <a href="#">tìm hiểu</a>
+          </div>
+        </div>
+
+        <div class="category-box">
+          <img src="./images/cat2.jpg" alt="">
+          <div class="content">
+            <h2>Programing</h2>
+            <span>10+ khóa học với lộ trình khoa học</span>
+            <a href="#">tìm hiểu</a>
+          </div>
+        </div>
+
+        <div class="category-box">
+          <img src="./images/cat3.jpg" alt="">
+          <div class="content">
+            <h2>Nâng cao nghiệp vụ</h2>
+            <span>Khóa học chất lượng với chuyên gia</span>
+            <a href="#">tìm hiểu</a>
+          </div>
+        </div>
+
+      </div>
+    </section>   
+
+    <!-- Filtered Products -->
+    <section class="section sort-category">
+      <div class="title-container ">
+        <div class="section-titles">
+          <div class="section-title active filter-btn" data-id="trend">
+            <span class="dot"></span>
+            <h1 class="primary-title">Khóa học cơ bản</h1>
+          </div>
+        </div>
+
+        <div class="section-titles">
+          <div class="section-title filter-btn" data-id="special">
+            <span class="dot"></span>
+            <h1 class="primary-title">Khóa học nghiệp vụ</h1>
+          </div>
+        </div>
+
+        <div class="section-titles">
+          <div class="section-title filter-btn" data-id="featured">
+            <span class="dot"></span>
+            <h1 class="primary-title">Khóa học HOT</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-center container">
+        <!-- <div class="product">
+          <div class="product-header">
+            <img src="images/pic1.png" alt="product">
+          </div>
+          <div class="product-footer">
+            <h3>Men Casual Shoe</h3>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="product-price">
+              <h4>$300</h4>
+            </div>
+          </div>
+          <ul>
+            <li>
+              <a href="#">
+                <i class="far fa-eye"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="far fa-heart"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-sync"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="product">
+          <div class="product-header">
+            <img src="images/pic2.png" class='small'alt="product">
+          </div>
+          <div class="product-footer">
+            <h3>Men Casual Shoe</h3>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="product-price">
+              <h4>$2500.99</h4>
+            </div>
+          </div>
+          <ul>
+            <li>
+              <a href="#">
+                <i class="far fa-eye"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="far fa-heart"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-sync"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="product">
+          <div class="product-header">
+            <img src="images/pic4.png" class='small' alt="product">
+          </div>
+          <div class="product-footer">
+            <h3>Men Casual Shoe</h3>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="product-price">
+              <h4>$3000.99</h4>
+            </div>
+          </div>
+          <ul>
+            <li>
+              <a href="#">
+                <i class="far fa-eye"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="far fa-heart"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-sync"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="product">
+          <div class="product-header">
+            <img src="images/pic3.png" class='small' alt="product">
+          </div>
+          <div class="product-footer">
+            <h3>Men Casual Shoe</h3>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="product-price">
+              <h4>$3000.99</h4>
+            </div>
+          </div>
+          <ul>
+            <li>
+              <a href="#">
+                <i class="far fa-eye"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="far fa-heart"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-sync"></i>
+              </a>
+            </li>
+          </ul>
+        </div> -->
+      </div>
+    </section>
+    <!-- Latest Products -->
+    <section class="section latest-products" id="new">
+      <div class="title-container">
+        <div class="section-titles">
+          <div class="section-title active" data-id="latest">
+            <span class="dot"></span>
+            <h1 class="primary-title">Khóa học mới</h1>
+          </div>
+        </div>
+      </div>
+      <div class="latest-center product-center container"></div>
+
+    </section>
+    <!-- Grid -->
+    
+    <!-- <section class="gallary container">
+      <figure class="gallary-item item-1">
+        <img src="./images/grid_1.jpg" alt="" class="gallary-img">
+        <div class="content">
+          <h2>Our Popular Products</h2>
+          <a href="#">View more</a>
+        </div>
+      </figure>
+
+      <figure class="gallary-item item-2">
+        <img src="./images/grid_2.jpg" alt="" class="gallary-img">
+        <div class="content">
+          <h2>Winter Collections</h2>
+        </div>
+      </figure>
+
+      <figure class="gallary-item item-3">
+        <img src="./images/grid_3.jpg" alt="" class="gallary-img">
+        <div class="content">
+          <h2>Summer Collections</h2>
+        </div>
+      </figure>
+
+      <figure class="gallary-item item-4">
+        <img src="./images/grid_4.jpg" alt="" class="gallary-img">
+        <div class="content">
+          <h2>Up to 70% OFF Spring Sale!</h2>
+        </div>
+      </figure>
+    </section> -->
+
+    <!-- All Products -->
+    <section class="section" id="shop">
+      <div class="title-container">
+        <div class="section-titles">
+          <div class="section-title active" data-id="latest">
+            <span class="dot"></span>
+            <h1 class="primary-title">Các khóa học hiện tại</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="course-center product-center container">
+
+      </div>
+    </section>
+    <!-- Partner Section -->
+
+    <div class="section brands container">
+      <div class="glide" id="glide2">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">
+              <img src="./images/partner1.jpg" alt="">
+            </li>
+            <li class="glide__slide">
+              <img src="./images/partner2.jpg" alt="">
+            </li>
+            <li class="glide__slide">
+              <img src="./images/partner3.jpg" alt="">
+            </li>
+            <li class="glide__slide">
+              <img src="./images/partner1.jpg" alt="">
+            </li>
+            <li class="glide__slide">
+              <img src="./images/partner2.jpg" cla alt="">
+            </li>
+            <li class="glide__slide">
+              <img src="./images/partner3.jpg" alt="">
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    
+
+    <!-- blog -->
+    <section class="section blog" id="blog">
+      <div class="title-container">
+        <div class="section-titles">
+          <div class="section-title active">
+            <span class="dot"></span>
+            <h1 class="primary-title">Bài viêt mới nhất</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog-container container">
+        <div class="glide" id="glide3">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <div class="blog-card">
+                  <div class="card-header">
+                    <img src="./images/blog1.jpg" alt="">
+                  </div>
+                  <div class="card-footer">
+                    <h3>Lộ trình trở thành Front-End dev chuyên nghiệp</h3>
+                    <span>By Admin</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
+                      provident rem sed minus natus unde vel modi!</p>
+                    <a href="#"><button>Read More</button></a>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="blog-card">
+                  <div class="card-header">
+                    <img src="./images/blog2.jpg" alt="">
+                  </div>
+                  <div class="card-footer">
+                    <h3>Chia sẻ kinh nghiệm trong tư duy thiết kế </h3>
+                    <span>By Admin</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
+                      provident rem sed minus natus unde vel modi!</p>
+                    <a href="#"><button>Read More</button></a>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="blog-card">
+                  <div class="card-header">
+                    <img src="./images/blog3.jpg" alt="">
+                  </div>
+                  <div class="card-footer">
+                    <h3>Trở thành một full-stack Designer? Tại sao không?</h3>
+                    <span>By Admin</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
+                      provident rem sed minus natus unde vel modi!</p>
+                    <a href="#"><button>Read More</button></a>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="blog-card">
+                  <div class="card-header">
+                    <img src="./images/blog1.jpg" alt="">
+                  </div>
+                  <div class="card-footer">
+                    <h3>Lộ trình trở thành Front-End dev chuyên nghiệp</h3>
+                    <span>By Admin</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
+                      provident rem sed minus natus unde vel modi!</p>
+                    <a href="#"><button>Read More</button></a>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="blog-card">
+                  <div class="card-header">
+                    <img src="./images/blog2.jpg" alt="">
+                  </div>
+                  <div class="card-footer">
+                    <h3>Lộ trình trở thành Front-End dev chuyên nghiệp</h3>
+                    <span>By Admin</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
+                      provident rem sed minus natus unde vel modi!</p>
+                    <a href="#"><button>Read More</button></a>
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
-    <!-- Mentor Section -->
 
-    <!-- Testimonials Section -->
-    <section class="section">
-      <div class="title">
-        <h1>Học viên tốt nghiệp nói gì?</h1>
+
+    <!-- Recent Products -->
+    <section class="section recent-products" id="recent">
+      <div class="title-container">
+        <div class="section-titles">
+          <div class="section-title active" data-id="recent">
+            <span class="dot"></span>
+            <h1 class="primary-title">Phổ biến</h1>
+          </div>
+        </div>
       </div>
-      <div class="testimonial-center container">
-        <div class="testimonial">
-          <span>&ldquo;</span>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis,
-            fugiat labore. Veritatis et omnis consequatur.
-          </p>
-          <div class="rating">
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-          </div>
-          <div class="img-cover">
-            <img src="./images/profile1.jpg" alt="" />
-          </div>
-          <h4><b>Trúc Đào 19 tuổi </b> <i>Lập trình viên FE-ReactJs tại CrystalMedia</i></h4>
-        </div>
-        <div class="testimonial">
-          <span>&ldquo;</span>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis,
-            fugiat labore. Veritatis et omnis consequatur.
-          </p>
-          <div class="rating">
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-          </div>
-          <div class="img-cover">
-            <img src="./images/profile1.jpg" alt="" />
-          </div>
-          <h4><b>Trúc Đào 19 tuổi </b> <i>Lập trình viên FE-ReactJs tại CrystalMedia</i></h4>
-        </div>
-        
-        <div class="testimonial">
-          <span>&ldquo;</span>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis,
-            fugiat labore. Veritatis et omnis consequatur.
-          </p>
-          <div class="rating">
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-          </div>
-          <div class="img-cover">
-            <img src="./images/profile1.jpg" alt="" />
-          </div>
-          <h4><b>Trúc Đào 19 tuổi </b> <i>Lập trình viên FE-ReactJs tại CrystalMedia</i></h4>
-        </div>
-        
-        
+      <div class="recent-center product-center container">
+
       </div>
     </section>
 
-    <!-- Brands Section -->
-    <section class="section">
-      <div class="title">
-        <h1>Đối tác của chúng tôi</h1>
-      </div>
-      
-      <div class="brands-center container">
-        <div class="brand">
-          <img src="./images/brand1.jpg" alt="" />
+    <!-- Facility -->
+    <section class="facility section" id="facility">
+        <div class="facility-contianer container">
+          <div class="facility-box">
+            <div class="facility-icon">
+              <i class="fas fa-book-open"></i>
+            </div>
+            <p>Luôn luôn cập nhật</p>
+          </div>
+
+          <div class="facility-box">
+            <div class="facility-icon">
+              <i class="far fa-lightbulb"></i>
+            </div>
+            <p>Tư duy đột phá</p>
+          </div>
+
+          <div class="facility-box">
+            <div class="facility-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <p>Bảo mật thông tin</p>
+          </div>
+
+          <div class="facility-box">
+            <div class="facility-icon">
+              <i class="fas fa-headset"></i>
+            </div>
+            <p>24/7 ONLINE SUPPORT</p>
+          </div>
         </div>
-        <div class="brand">
-          <img src="./images/brand2.jpg" alt="" />
-        </div>
-        <div class="brand">
-          <img src="./images/brand1.jpg" alt="" />
-        </div>
-        <div class="brand">
-          <img src="./images/brand2.jpg" alt="" />
-        </div>
-        <div class="brand">
-          <img src="./images/brand1.jpg" alt="" />
-        </div>
-        <div class="brand">
-          <img src="./images/brand2.jpg" alt="" />
-        </div>
-      </div>
     </section>
   </main>
 
-  <!-- Footer Section -->
+  <!-- PopUp -->
+  <!-- <div class="popup">
+    <div class="popup-content">
+      <div class="popup-close">
+        <i class="fas fa-times"></i>
+      </div>
+      <div class="popup-left">
+        <div class="popup-img">
+          <img  src="./images/cat2.jpg" alt="popup">
+        </div>
+      </div>
+      <div class="popup-right">
+        <div class="right-content">
+          <h1>Get Discount <span>30%</span> Off</h1>
+          <p>Sign up to our blogletter and save 30% for you next purchase. No spam, we promise!
+          </p>
+          <form action="#">
+            <input type="email" placeholder="Enter your email..." class="popup-form">
+            <a href="#">Subscribe</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!-- tesmination -->
+  
+
+
+  <!-- Footer -->
   <footer id="footer" class="section footer">
     <div class="container">
       <div class="footer-container">
         <div class="footer-center">
-          <h3>EDUZICZAC</h3>
-          <a href="index.html">Trang chủ</a>
-          <a href="product.html">Khóa học</a>
-          <a href="abouts.html">Thông tin</a>
-          <a href="contact.html">Liên hệ</a>
-          <a href="news.html">Tin tức/Blogs</a>
+          <h3>Mở rộng</h3>
+          <a href="#">Đối tác</a>
+          <a href="#">Certificates</a>
+          <a href="#">Sản phẩm</a>
+          <a href="#">Diễn đàn cựu học viên</a>
         </div>
         <div class="footer-center">
           <h3>Thông tin</h3>
-          <a href="#">Eduziczac</a>
-          <a href="#">Sản phẩm</a>
+          <a href="#">ZiczacMedia</a>
+          <a href="#">Điều khoản &  chính sách</a>
+          <a href="#">Liên hệ </a>
           <a href="#">Đối tác</a>
-          <a href="#">Nguyên tắc làm việc</a>
-          <a href="#">Chính sách</a>
         </div>
         <div class="footer-center">
           <h3>Tài khoản</h3>
           <a href="#">Tài khoản của tôi</a>
           <a href="#">Lịch sử giao dịch</a>
-          <a href="#">Khóa học của tôi</a>
-          <a href="#">Kích hoạt khóa học</a>
-          <a href="#"></a>
+          <a href="#">Khóa học quan tâm</a>
+          <a href="#">Viết blog</a>
+          
         </div>
         <div class="footer-center">
-          <h3>Liên hệ với chúng tôi</h3>
+          <h3>Địa chỉ</h3>
           <div>
-            109F1 181 Nguyen Trai Thanh Xuan Ha Noi</div>
-          <div>            
-            eduziczac@gmail.com
+            <span>
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+            109F1,181 Nguyen Trai,Thuong Dinh,Thanh Xuan,Ha Noi
           </div>
-          <div>+84 97 461 5230
+          <div>
+            <span>
+              <i class="far fa-envelope"></i>
+            </span>
+            ZiczacMedia@gmail.com
           </div>
-          <div></div>Ha Noi, Viet Nam
+          <div>
+            <span>
+              <i class="fas fa-phone"></i>
+            </span>
+            +84-97-461-5230
+          </div>
+          <div>
+            <span>
+              <i class="far fa-paper-plane"></i>
+            </span>
+            Ha Noi,Viet Nam
           </div>
         </div>
       </div>
     </div>
     </div>
   </footer>
-  <!-- End Footer Section -->
+  <!-- End Footer -->
 
-  <!-- GSAP Section -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-  <!-- Custom Script Section -->
-  <script src="./js/main.js"></script>
+
+  <!-- Glidejs Script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+
+  <!-- Custom Script -->
+  <script src="./js/product.js"></script>
+  <script src="./js/slider.js"></script>
+  <script src="./js/index.js"></script>
 </body>
 
 </html>

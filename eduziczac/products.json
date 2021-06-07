@@ -1,0 +1,125 @@
+{
+    "products": [
+      {
+        "title": "Chỉnh sửa ảnh cơ bản với Adobe Photoshop",
+        "price": "2000.99",
+        "image": "./images/pic1.png",
+        "category": "featured"
+      },
+      {
+        "title": "HTML,CSS cơ bản",
+        "price": "2000.99",
+        "image": "./images/pic2.png",
+        "category": "trend"
+      },
+      {
+        "title": "JavaScript cơ bản",
+        "price": "2000.99",
+        "image": "./images/pic3.png",
+        "category": "featured"
+      },
+      {
+        "title": "NodeJS và ExpressJS",
+        "price": "2000.99",
+        "image": "./images/pic4.png",
+        "category": "trend"
+      },
+      {
+        "title": "Chỉnh sửa và biên tập Video với Adobe Premiere",
+        "price": "2000.99",
+        "image": "./images/pic5.png",
+        "category": "featured"
+      },
+      {
+        "title": "Thiết kế đồ họa từ cơ bản đến nâng cao",
+        "price": "2000.99",
+        "image": "./images/pic6.png",
+        "category": "recent"
+      },
+      {
+        "title": "Lập trình Java cơ bản",
+        "price": "2000.99",
+        "image": "./images/pic8.png",
+        "category": "trend"
+      },
+      {
+        "title": "Lập trình Frontend-Web ReactJS",
+        "price": "2000.99",
+        "image": "./images/pic7.png",
+        "category": "featured"
+      },
+      {
+        "title": "Java Spring Boost",
+        "price": "2000.99",
+        "image": "./images/pic8.png",
+        "category": "recent"
+      },
+      {
+        "title": "PhotoShop chuyên nghiệp",
+        "price": "2000.99",
+        "image": "./images/pic1.png",
+        "category": "trend"
+      },
+      {
+        "title": "Đóng gói và vận hành với Docker",
+        "price": "2000.99",
+        "image": "./images/pic9.png",
+        "category": "special"
+      },
+      {
+        "title": "Quản lý mã nguồn và teamwork với Git",
+        "price": "2000.99",
+        "image": "./images/pic10.png",
+        "category": "special"
+      },
+      {
+        "title": "Thiết kế Responsive Website",
+        "price": "2000.99",
+        "image": "./images/pic11.png",
+        "category": "special"
+      },
+      {
+        "title": "Mobile - Lập trình đa nền tảng",
+        "price": "2000.99",
+        "image": "./images/pic12.png",
+        "category": "recent"
+      },
+      {
+        "title": "Trọn bộ Adobe tools",
+        "price": "2000.99",
+        "image": "./images/pic7.png",
+        "category": "special"
+      },
+      {
+        "title": "Mobile - Lập trình IOS",
+        "price": "2000.99",
+        "image": "./images/pic13.png",
+        "category": "latest"
+      },
+      {
+        "title": "BigData - Tìm hiểu về BigData",
+        "price": "2000.99",
+        "image": "./images/pic14.png",
+        "category": "recent"
+      },
+      {
+        "title": "Lớp học nâng cao nghiệp vụ",
+        "price": "2000.99",
+        "image": "./images/pic8.png",
+        "category": "latest"
+      },
+      {
+        "title": "Lớp học nâng cao nghiệp vụ",
+        "price": "2000.99",
+        "image": "./images/pic15.png",
+        "category": "latest"
+      },
+      {
+        "title": "Lớp học nâng cao nghiệp vụ",
+        "price": "2000.99",
+        "image": "./images/pic1.png",
+        "category": "latest"
+      }
+    ]
+  }
+  
